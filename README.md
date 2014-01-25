@@ -1,20 +1,30 @@
 # Pushpin
 
+[![Build Status](https://travis-ci.org/attack/pushpin.png?branch=master)](https://travis-ci.org/attack/pushpin)
+[![Gem Version](https://badge.fury.io/rb/pushpin.png)](http://badge.fury.io/rb/pushpin)
+[![Code Climate](https://codeclimate.com/github/attack/pushpin.png)](https://codeclimate.com/github/attack/pushpin)
+
 An object to indicate geographic position
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'pushpin'
-
-And then execute:
-
-    $ bundle
+```ruby
+gem 'pushpin'
+```
 
 Or install it yourself as:
 
-    $ gem install pushpin
+```shell
+$ gem install pushpin
+```
+
+## Usage
+
+```ruby
+Pushpin.new('Paris')
+```
 
 ## Contributing
 
@@ -27,6 +37,8 @@ Or install it yourself as:
 ## Links
 
 * repo: http://github.com/attack/pushpin
+* travis ci: https://travis-ci.org/attack/pushpin
+* code climate: https://codeclimate.com/github/attack/pushpin
 
 ## Copyright
 
