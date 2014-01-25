@@ -1,4 +1,11 @@
 require 'pushpin/version'
 
-module Pushpin
+class Pushpin
+  def initialize(location)
+    @location = location
+  end
+
+  def to_s
+    @location.to_s
+  end
 end

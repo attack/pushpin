@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.platform      = Gem::Platform::RUBY
   spec.required_ruby_version = '>= 1.9.2'
 
-  spec.files         = `git ls-files -z`.split('\x0')
+  spec.files         = `git ls-files -z`.split("\x0")
   spec.test_files    = spec.files.grep(%r{^spec/})
   spec.require_paths = ['lib']
 
